@@ -1,0 +1,184 @@
+body {
+    background-color: antiquewhite;
+    background-size: cover;
+    /*overflow: scroll;*/
+    font-family: "Avenir Next", sans-serif;
+    color: burlywood;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: center;
+}
+
+#cafe {
+    border: solid white 2px;
+    padding: 15px;
+    margin-right:20px;
+    vertical-align: middle;
+    float: left;
+}
+
+p {
+    width: 85%;
+    padding: 20px;
+    position: relative;
+}
+
+.soft-research {
+    margin-left: 50px;
+    width: 75%;
+    padding-top: 5px;
+}
+
+#main-name {
+    color: antiquewhite;
+    background-color: white;
+    border: white;
+    padding: 5px;
+    font-size: 50px;
+    font-weight: normal;
+    width: 300px;
+    /*text-align: center;*/
+    /*horiz-align: center;*/
+}
+
+.dropbtn {
+    display: inline-block;
+    color: burlywood;
+    background: none;
+    font-family: "Avenir Next", sans-serif;
+    border: none;
+    font-size: 20px;
+    width: 120px;
+    text-align: center;
+}
+
+.dropbtn:hover {
+    text-decoration: underline;
+}
+
+.menu {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.menu-drop a {
+    float: none;
+    color: rosybrown;
+    padding: 12px 16px;
+    text-align: center;
+    display: table-row;
+}
+
+.menu-drop {
+    display: none;
+    position: absolute;
+    background: blanchedalmond;
+    opacity: .70;
+    color: -moz-default-background-color;
+    min-width: 100%;
+    overflow: auto;
+}
+
+.menu-drop a {
+    float: none;
+    color: rosybrown;
+    padding: 12px 16px;
+    display: block;
+    text-align: center;
+}
+
+.menu-drop a:hover {
+    color: white;
+}
+.menu:hover .menu-drop {
+    display: block;
+}
+
+.navbar {
+    position: relative;
+    width: 100%;
+    background-color: white;
+    opacity: 20%;
+}
+
+.contacts {
+    font-family: "Avenir Next", sans-serif;
+    color: white;
+    width: 80%;
+    font-size: 20px;
+}
+
+#inquiries {
+    font-size: 25px;
+}
+
+.contacts a {
+    color: white;
+}
+
+li:hover {
+    background-color: darksalmon;
+    color: antiquewhite;
+}
+
+li:hover strong {
+    color: seashell;
+}
+
+p a {
+    color: white;
+}
+
+li strong {
+    color: peru;
+    font-size: larger;
+}
+
+/*for small screens*/
+@media only screen and (max-width: 600px) {
+    .menu-drop {
+        display: inline-block;
+        position: relative;
+        text-align: left;
+        width: 100%;
+    }
+    .menu {
+        width: 100%;
+        background-color: white;
+    }
+    .menu:hover .menu-drop {
+        display: inline-block;
+        text-align: left;
+        width: 100%;
+    }
+    .menu .dropbtn {
+        text-align: left;
+        padding: 10px 0;
+        width: 100%;
+        background-color: floralwhite;
+
+    }
+    .menu-drop a {
+        text-align: left;
+        padding: 10px 0;
+        width: 100%;
+    }
+    #cafe {
+        width: 50%;
+        horiz-align: center;
+        margin-right: 20px;
+    }
+    .information {
+        width: 100%;
+    }
+    p {
+        width: 95%;
+    }
+
+}
+
+
+
+
