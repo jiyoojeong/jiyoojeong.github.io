@@ -59,10 +59,27 @@ p {
     text-align: center;
 }
 
+.page-buttons {
+    display: inline-block;
+    color: gray;
+    background: none;
+    font-family: "Comfortaa", sans-serif;
+    border: none;
+    font-size: 20px;
+    width: 120px;
+    text-align: center;
+}
+
+.page-buttons:hover {
+    color: white;
+    background: rgba(200, 200, 200, .5);
+    text-decoration: underline;
+    text-align: center;
+}
+
 .nav-logo {
     height: 80px;
 }
-
 
 .dropbtn:hover {
     text-decoration: underline;
@@ -1639,12 +1656,113 @@ li strong {
 /**** START ****/
 
 #start {
-    overflow: hidden;
-    position: fixed;
     width: 100%;
-    height: 100%;
-    background: rgba(255, 255, 255, .2)
-	background: -webkit-linear-gradient(top, #FFFFF 0%, #fff 100%);
-	background: -linear-gradient(top, #FFFFFF 0%, #fff 100%);
-	background: -moz-linear-gradient(top, #FFFFFF 0%, #fff 100%);
+    height: 100px;
+    background: rgba(255, 255, 255, .0);
+	background: -webkit-linear-gradient(top, #fff 0%, #fff 50%);
+	background: -linear-gradient(top, #fff 0%, #fff 50%);
+	background: -moz-linear-gradient(top, #fff 0%, #fff 50%);
 }
+
+
+
+
+/* Footer Section*/
+#footer {
+	background: linear-gradient(to left, #0081D5 0%, #005993 100%);;
+	padding: 30px 0;
+}
+#footer p {
+	color: #d9d9d9;
+	font-size: 14px;
+}
+
+#footer i{
+	color: #d9d9d9;
+}
+
+#footer i:hover{
+	color: #B48537;
+}
+
+#footer h4 {
+	color: #fff;
+	font-size: 14px;
+}
+#footer a {
+	color: #608dfd;
+}
+
+
+
+/*==============================
+      //footer Styles //
+==============================*/
+
+.page-footer {
+    border-top: 1px solid #cccccc;
+}
+
+.page-footer .box-1 {
+    border-right: 1px solid #cccccc;
+    padding-top: 75px;
+    padding-bottom: 80px;
+}
+
+.page-footer .box-2,
+.page-footer .box-3,
+.page-footer .box-4 {
+    padding-top: 75px;
+}
+
+.footer-copyright {
+    position: relative;
+    background-color: none;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 120px;
+}
+
+.footer-copyright p {
+    font-size: 16px;
+    color: 777;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+    padding: 40px 0;
+    margin-bottom: 0;
+}
+
+.footer-copyright p a {
+    color: #8dc63f;
+}
+
+.page-footer img {
+    margin-bottom: 30px;
+}
+
+.page-footer h5 {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem !important;
+}
+
+.page-footer p {
+    font-size: 16px;
+    font-weight: 300;
+    padding-right: 40px;
+}
+
+.page-footer ul > li a {
+    color: #707070;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.page-footer ul > li a:hover {
+    color: #8dc63f;
+}
+
