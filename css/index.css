@@ -1,0 +1,79 @@
+html, body {
+    background-color: #000000;
+    background-image: url('images/cherry_bloom.gif');
+    overflow: scroll;
+    background-size: cover;
+
+    overflow: scroll;
+    font-family: "Comfortaa", sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: center;
+    text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+
+	width: 100% !important;
+	height: 100% !important;
+}
+
+body > #main-name {
+    font-size: 150px;
+    font-weight: 100;
+    position: relative;
+    text-align: left;
+    top: 50%;
+}
+
+.dropbtn {
+    color: white;
+    background: none;
+    font-family: "Comfortaa", sans-serif;
+    border: none;
+    font-size: 20px;
+    width: 150px;
+}
+
+.dropbtn:hover {
+    text-decoration: underline;
+}
+
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-drop {
+    bottom: 100%;
+    display: none;
+    position: absolute;
+    background: white;
+    opacity: .90;
+    color: -moz-default-background-color;
+    min-width: 100%;
+    overflow: auto;
+}
+
+.menu-drop a {
+    float: none;
+    color: yellowgreen;
+    padding: 12px 16px;
+    display: block;
+    text-align: center;
+}
+
+.menu-drop a:hover {
+    color: rosybrown;
+}
+.menu:hover .menu-drop {
+    display: block;
+}
+
+.home-navbar {
+    position: fixed;
+    bottom: 0;
+    left: auto;
+    width: 200%;
+    background-color: black;
+}
+
+

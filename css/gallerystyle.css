@@ -1,0 +1,165 @@
+
+html{
+    width:100%;
+    height:100%;
+    background:antiquewhite;
+}
+
+/*pre settings begin*/
+body {
+    background-color: antiquewhite;
+    background-size: cover;
+    overflow:scroll;
+    /*overflow: scroll;*/
+    font-family: "Avenir Next", sans-serif;
+    color: burlywood;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: center;
+}
+
+#main-name {
+    color: antiquewhite;
+    background-color: white;
+    border: white;
+    padding: 5px;
+    font-size: 50px;
+    font-weight: normal;
+    width: 300px;
+    /*text-align: center;*/
+    /*horiz-align: center;*/
+}
+
+.dropbtn {
+    display: inline-block;
+    color: burlywood;
+    background: none;
+    font-family: "Avenir Next", sans-serif;
+    border: none;
+    font-size: 20px;
+    width: 120px;
+    text-align: center;
+}
+
+.dropbtn:hover {
+    text-decoration: underline;
+}
+
+.menu {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.menu-drop a {
+    float: none;
+    color: rosybrown;
+    padding: 12px 16px;
+    text-align: center;
+    display: table-row;
+}
+
+.menu-drop {
+    display: none;
+    position: absolute;
+    background: blanchedalmond;
+    opacity: .70;
+    color: -moz-default-background-color;
+    min-width: 100%;
+    overflow: auto;
+}
+
+.menu-drop a {
+    float: none;
+    color: rosybrown;
+    padding: 12px 16px;
+    display: block;
+    text-align: center;
+}
+
+.menu-drop a:hover {
+    color: white;
+}
+.menu:hover .menu-drop {
+    display: block;
+}
+
+.navbar {
+    position: relative;
+    width: 100%;
+    background-color: white;
+    opacity: 20%;
+}
+/*presets end*/
+
+.follow-menu {
+    position: fixed;
+    display: block;
+    text-align: left;
+    z-index: 1;
+}
+.follow-menu-drop {
+    width: 200px;
+    height: 30px;
+}
+
+.boxless {
+    color: navajowhite;
+    background-color: burlywood;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+    transition:none;
+    -webkit-transition:none;
+    -moz-transition:none;
+    -o-transition:none;
+    -ms-transition:none;
+    margin: 5%
+}
+
+.boxless:hover {
+    background: seashell;
+    color: peru;
+    box-shadow: none;
+}
+
+
+ul{
+    position:absolute;
+    width:100%;
+    height:100%;
+    box-shadow:inset 0 0 1px rgba(0,0,0,.05);
+}
+li{
+    position:relative;
+    float:left;
+    width:400px;
+    height:400px;
+    list-style: none;
+}
+
+li a{
+    position:absolute;
+    width:300px;
+    height:300px;
+    margin:15%;
+    /*background-image:;*/
+    background-size: contain;
+    box-shadow:0 0 1px 1px rgba(0,0,0,.2);
+    /*transform:rotate($rdeg);*/
+    transition:all .5s ease-in-out;
+    -webkit-transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    -o-transition:all .5s ease-in-out;
+    -ms-transition:all .5s ease-in-out;
+}
+
+li a:hover{
+    width:90%;
+    height:90%;
+    margin:5%;
+    transform:rotate(0deg);
+    background:#f5f5f5;
+    box-shadow:0 0 10px 1px rgba(0,0,0,.5);
+}

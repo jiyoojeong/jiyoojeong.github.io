@@ -2,28 +2,72 @@
 <html>
     <head>
         <title>Jiyoo Jeong</title>
-        <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway:100,200,600,700" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="index.css">
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Comfortaa" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+
+    <link rel="stylesheet" type="text/css" href="css/style2.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/clouds.css">
 
     </head>
+
     <body>
-        <h1 id="main-name">Jiyoo Jeong</h1> <!-- todo: add logo-->
-        <div class="navbar">
-        <div class="menu">
-            <button class="dropbtn">About</button>
-            <div class="menu-drop">
-                <a href="statement.html">Biography</a>
-                <a href="contact.html">Contact</a>
+    <div id="home-body">
+        <img src="https://media3.giphy.com/media/TrVla4Z2PYEkU/giphy.gif" alt="blossoms">
+        <h1 id="main-name"><strong>JIYOO</strong> JEONG</h1> <!-- todo: add logo-->
+        <div class="home-navbar">
+                <div class="menu">
+                    <button class="dropbtn" onclick="holdMenu()">About</button>
+                        <div class="menu-drop">
+                            <a href="about.html">Biography</a>
+                            <a href="contact.html">Curriculum Vitae</a>
+                        </div>
+                </div>
+                <div class="menu">
+                    <button class="dropbtn" onclick="holdMenu()">Portfolio</button>
+                        <div class="menu-drop">
+                            <a href="software.html">Software & Research</a>
+                            <a href="proto.html">Prototypes</a>
+                            <a href="des.html">Art Medium</a>
+                            <a href="des.html">Publications</a>
+                        </div>
+                </div>
+
+            <div class="menu">
+                <button class="dropbtn" onclick="holdMenu()">Connect</button>
+                    <div class="menu-drop">
+                        <a href="socials.html">Socials</a>
+                        <a href="contact.html">Contacts</a>
+                    </div>
             </div>
         </div>
-        <div class="menu">
-            <button class="dropbtn">Portfolio</button>
-            <div class="menu-drop">
-                <a href="des.html">Art & Design</a>
-                <a href="proto.html">Prototypes</a>
-                <a href="software.html">Software & Research</a>
-            </div>
-        </div>
-        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+    <script src="js/animate.js"></script>
+    <script src="js/custom.js"></script>
+
+
+<!-- CUSTOM JAVASCRIPT -->
+
+    <script>
+        $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
+    </script>
     </body>
 </html>
