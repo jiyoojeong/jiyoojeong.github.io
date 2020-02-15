@@ -2,75 +2,146 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Prototypes</title>
+    <title>Programs & Ventures</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway:100,200,600,700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./style2.css">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Comfortaa" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/clouds.css">
+    <link rel="stylesheet" type="text/css" href="css/style2.css">
+    <link rel="stylesheet" type="text/css" href="css/bounce.css">
 </head>
 <body>
-<div class="navbar">
-    <div class="menu">
-        <a href="index.html"><button class="dropbtn" id="main-name">Jiyoo Jeong</button></a>
-    </div>
-    <div class="menu">
-        <button class="dropbtn">About</button>
-        <div class="menu-drop">
-            <a href="statement.html">Biography</a>
-            <a href="contact.html">Contact</a>
+
+<span class="position-absolute trigger"><!-- hidden trigger to apply 'stuck' styles --></span>
+
+<!-- NAVIGATION BAR NAVBAR -->
+    <div class="navbar">
+                <div class="menu">
+                <!--<a href="index.html"><button id="main-name"><img class='nav-logo' class="figure-img img-fluid" src="">J <img class='nav-logo' class="figure-img img-fluid" src="images/cherry_bloom.gif"></button></a>--->
+                    <a href="index.html"><button id="main-name"><img class='nav-logo' class="figure-img img-fluid" src="">J <img class='nav-logo' class="figure-img img-fluid" src="images/cherry_bloom.gif"></button></a>
+                </div>
+                <div class="menu">
+                    <button class="dropbtn" onclick="holdMenu()">About</button>
+                        <div class="menu-drop">
+                            <a href="about.html">Biography</a>
+                            <a href="contact.html">Curriculum Vitae</a>
+                        </div>
+                </div>
+                <div class="menu">
+                    <button class="dropbtn" onclick="holdMenu()">Portfolio</button>
+                        <div class="menu-drop">
+                            <a href="software.html">Software & Research</a>
+                            <a href="proto.html">Prototypes</a>
+                            <a href="des.html">Gallery</a>
+                            <a href="des.html">Publications</a>
+                        </div>
+                </div>
+            <div class="menu">
+                <button class="dropbtn" onclick="holdMenu()">Connect</button>
+                    <div class="menu-drop">
+                        <a href="socials.html">Socials</a>
+                        <a href="contact.html">Contacts</a>
+                    </div>
+            </div>
         </div>
-    </div>
-    <div class="menu">
-        <button class="dropbtn">Portfolio</button>
-        <div class="menu-drop">
-            <a href="des.html">Art & Design</a>
-            <a href="proto.html">Prototypes</a>
-            <a href="software.html">Software & Research</a>
+<!-- END NAVIGATION BAR NAVBAR -->
+<br>
+<!--Section-1-->
+    <section class="section-1 banner">
+        <div class="section-1 title">
+            <h1><strong>P</strong>ROJECTS & <strong>V</strong>ENTURES</h1>
         </div>
-    </div>
-</div>
+        <br>
+    </section>
+<!--END Section-1-->
 
-<div>
-    <h1>Prototypes</h1>
-    <div>
-        <ul>
-            <li><h3>Peachy</h3>
-                <p>
-                    At Peachy, we wanted to combat this issue and find some sort of way increase access to healthcare and to ultimately encourage our age group to look after themselves and check up on their health.
-                    We’ve created an innovative 3-part service that allows customers to conduct blood tests in the convenience of their own home.
-                    Customers can keep track of their past results through our website, and will then receive their monthly ‘PeachyBox’ based off of their test results.
-                </p>
-                <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTZyvIeNzoL_es70ykaWz-CyZnEs0yYZEP8nFWdFUGRx4Vukomz4klyLkCwxDk7I2oLgBbj1pnsPmdZ/embed?start=true&loop=true&delayms=3000" frameborder="0" width="500" height="296" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<!--Section-4-->
+    <section class="section-4">
+        <div class="row" id="pv-row-1">
+            <div class="col-xs-12 col-md-6">
+                <a class="hvr-bounce-to-left">
+                    <div class="position-title"><h3>Peachy</h3></div>
+                    <div class="position-description">
+                        <p>
+                            At Peachy, we wanted to combat this issue and find some sort of way increase access to healthcare and to ultimately encourage our age group to look after themselves and check up on their health.
+                            We’ve created an innovative 3-part service that allows customers to conduct blood tests in the convenience of their own home.
+                            Customers can keep track of their past results through our website, and will then receive their monthly ‘PeachyBox’ based off of their test results.
+                        </p>
+                        <figure>
+                            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTZyvIeNzoL_es70ykaWz-CyZnEs0yYZEP8nFWdFUGRx4Vukomz4klyLkCwxDk7I2oLgBbj1pnsPmdZ/embed?start=true&loop=true&delayms=3000" frameborder="0" width="500" height="500px" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                        </figure>
+                    </div>
 
-            </li>
-            <li>
-                <h3>Versara</h3>
-                <p>
-                    Prototype mobile app for a peer-to-peer rental community.
-                </p>
-                <iframe style="border: none;" width="500" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FFhqlbyoqwkFMcVimpqI9jyCW%2FVersara%3Fnode-id%3D1%253A2%26scaling%3Dscale-down" allowfullscreen></iframe>
-                  </li>
-            <li>
-                <h3>BioBox</h3>
-                <p>Pomelo fruit foam inspired innovative packaging. Biodegradable, affordable solution to shipping delicate items.</p>
-                <iframe src="Poster%20-%20BIOBOX.pdf" frameborder="0" #zoom=33 width="500" height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-            </li>
+                </a>
+            </div>
+            <div class="col-xs-12 col-md-6">
+                <a class="hvr-bounce-to-left">
+                    <div class="position-title"><h3>Versara</h3></div>
+                    <div class="position-description">
+                        <p>
+                            Versara marketplace platform for a secure peer-to-peer rental community for immediate needs. Our product allows
+                            for users to request and upload items that collect dust in their garages and closets to be recycled
+                            into the marketplace again.
+                        </p>
+                        <iframe class='img-fluid' style="border: none;" width="500" height="500" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FFhqlbyoqwkFMcVimpqI9jyCW%2FVersara%3Fnode-id%3D1%253A2%26scaling%3Dscale-down" allowfullscreen></iframe>
+                    </div>
+                    </a>
+            </div>
+        </div>
+        <!-- END ROW 1 -->
+        <div class="row" id="pv-row-2">
+            <div class="col-xs-12 col-md-6">
+                <a class="hvr-bounce-to-left">
+                    <div class="position-title"><h3>BioBox</h3></div>
+                    <div class="position-description">
+                        <p>Pomelo fruit foam inspired innovative packaging. Biodegradable, affordable solution to shipping delicate items.</p>
+                        <figure>
+                            <iframe class='img-fluid' style="height: 500px;" src="projects/Poster%20-%20BIOBOX.pdf" frameborder="0" #zoom=33 width="100%" height="100%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                        </figure>
+                    </div>
+                </a>
+            </div>
 
-            <li>
-                <h3>Gecko Grips</h3>
-                <p> Gecko bio-inspired design prototype of grips for ease of use of
-                gym equipment with waterproof, dipole-dipole attractive grip covers. </p>
-                <iframe src="Gecko%20Grip%20-%20Team%202.pdf" frameborder="0" width="500" height="700" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-            </li>
+            <div class="col-xs-12 col-md-6">
+                <a class="hvr-bounce-to-left">
+                    <div class="position-title"><h3>Gecko Grips</h3></div>
+                    <div class="position-description">
+                        <p>Gecko bio-inspired design prototype of grips for ease of use of
+                            gym equipment with waterproof, dipole-dipole attractive grip covers. </p>
+                    <figure>
+                        <iframe class='img-fluid' style="height: 500px;" src="projects/Gecko%20Grip%20-%20Team%202.pdf" frameborder="0" #zoom=50 width="100%" height="100%" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    </figure>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <!-- END ROW 2-->
 
-            <li>
-                <h3>WeWatt @ Berkeley</h3>
-                <p>Project to place fitness work stations with pedal powered charging ports.</p>
-                <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRIUtClmyGWoAtteikPeKdTZdsW6jsQkLe8ZN6DYQRkwuOmtxYxSQlRtR88XDHlJKftFrRHulosIarV/embed?start=true&loop=true&delayms=3000" frameborder="0" width="500" height="296" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-            </li>
-        </ul>
-    </div>
-
-</div>
+        <!-- Row 3 -->
+        <div class="row" id="pv-row-3">
+            <div class="col-xs-12 col-md-6">
+                <a class="hvr-bounce-to-left">
+                <div class="position-title"><h3>WeWatt @ Berkeley</h3></div>
+                        <div class="position-description">
+                            <p>Project to place fitness work stations with pedal powered charging ports.</p>
+                        <figure>
+                            <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRIUtClmyGWoAtteikPeKdTZdsW6jsQkLe8ZN6DYQRkwuOmtxYxSQlRtR88XDHlJKftFrRHulosIarV/embed?start=true&loop=true&delayms=3000" frameborder="0" width="500" height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                        </figure>
+                        </div>
+                </a>
+            </div>
+        </div>
+        <!-- end row 3 -->
+    </section>
 
 </body>
 </html>
