@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body, html {
     background-size: cover;
     background-color: #F2F2F2;
@@ -14,32 +15,44 @@ body, html {
 
 	width: 100% !important;
 	height: 100% !important;
+=======
+body {
+  background-color: #E8F6FE;
+  background-size: cover;
+  /*overflow: scroll;*/
+  font-family: "Avenir Next", sans-serif;
+  color: #86CEFE;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: center;
+>>>>>>> 43fab5bb5b062df3cbb262f868ae68e4992dffce
 }
 
 
 
 
 #cafe {
-    border: solid white 2px;
-    padding: 15px;
-    margin-right:20px;
-    vertical-align: middle;
-    float: left;
+  border: solid white 2px;
+  padding: 15px;
+  margin-right: 20px;
+  vertical-align: middle;
+  float: left;
 }
 
 p {
-    width: 85%;
-    padding: 20px;
-    position: relative;
+  width: 85%;
+  padding: 20px;
+  position: relative;
 }
 
 .soft-research {
-    margin-left: 50px;
-    width: 75%;
-    padding-top: 5px;
+  margin-left: 50px;
+  width: 75%;
+  padding-top: 5px;
 }
 
 #main-name {
+<<<<<<< HEAD
     color: #444444;
     padding: 5px;
     font-size: 50px;
@@ -84,18 +97,41 @@ p {
     height: 80px;
     opacity: 100%;
     z-index: -1;
+=======
+  color: #C4E7FE;
+  background-color: white;
+  border: white;
+  padding: 5px;
+  font-size: 50px;
+  font-weight: normal;
+  width: 300px;
+  /*text-align: center;*/
+  /*horiz-align: center;*/
+}
+
+.dropbtn {
+  display: inline-block;
+  color: #62A1F3;
+  background: none;
+  font-family: "Avenir Next", sans-serif;
+  border: none;
+  font-size: 20px;
+  width: 120px;
+  text-align: center;
+>>>>>>> 43fab5bb5b062df3cbb262f868ae68e4992dffce
 }
 
 .dropbtn:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .menu {
-    position: relative;
-    display: inline-block;
-    text-align: center;
+  position: relative;
+  display: inline-block;
+  text-align: center;
 }
 
+<<<<<<< HEAD
 .menu-drop {
     display: none;
     position: absolute;
@@ -115,12 +151,39 @@ p {
     padding: 12px 16px;
     display: block;
     text-align: center;
+=======
+.menu-drop a {
+  float: none;
+  color: #406AA1;
+  padding: 12px 16px;
+  text-align: center;
+  display: table-row;
+}
+
+.menu-drop {
+  display: none;
+  position: absolute;
+  background: #E8F6FE;
+  opacity: 0.7;
+  color: -moz-default-background-color;
+  min-width: 100%;
+  overflow: auto;
+}
+
+.menu-drop a {
+  float: none;
+  color: #AADDFE;
+  padding: 12px 16px;
+  display: block;
+  text-align: center;
+>>>>>>> 43fab5bb5b062df3cbb262f868ae68e4992dffce
 }
 
 .menu-drop a:hover {
-    color: white;
+  color: white;
 }
 .menu:hover .menu-drop {
+<<<<<<< HEAD
     display: block;
     color: black;
 }
@@ -133,6 +196,16 @@ p {
     background-image: url(
     'https://data.whicdn.com/images/137705153/original.gif'
     );
+=======
+  display: block;
+}
+
+.navbar {
+  position: relative;
+  width: 100%;
+  background-color: white;
+  opacity: 70%;
+>>>>>>> 43fab5bb5b062df3cbb262f868ae68e4992dffce
 }
 
 .navbar > .back {
@@ -141,21 +214,29 @@ p {
 
 
 .contacts {
+<<<<<<< HEAD
     font-family: "Comfortaa", sans-serif;
     color: white;
     width: 80%;
     font-size: 20px;
+=======
+  font-family: "Avenir Next", sans-serif;
+  color: white;
+  width: 80%;
+  font-size: 20px;
+>>>>>>> 43fab5bb5b062df3cbb262f868ae68e4992dffce
 }
 
 #inquiries {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .contacts a {
-    color: white;
+  color: white;
 }
 
 li:hover {
+<<<<<<< HEAD
     background-color: rgba(150, 150, 150, .4);
     color: white;
 }
@@ -163,59 +244,66 @@ li:hover {
 li:hover strong {
     color: blue;
     opacity: 20%;
+=======
+  background-color: #B0D0E6;
+  color: white;
+}
+
+li:hover strong {
+  color: #D7E9F4;
+>>>>>>> 43fab5bb5b062df3cbb262f868ae68e4992dffce
 }
 
 p a {
-    color: white;
+  color: white;
 }
 
 li strong {
-    color: peru;
-    font-size: larger;
+  color: #87CFFE;
+  font-size: larger;
 }
 
 /*for small screens*/
 @media only screen and (max-width: 600px) {
-    .menu-drop {
-        display: inline-block;
-        position: relative;
-        text-align: left;
-        width: 100%;
-    }
-    .menu {
-        width: 100%;
-        background-color: white;
-    }
-    .menu:hover .menu-drop {
-        display: inline-block;
-        text-align: left;
-        width: 100%;
-    }
-    .menu .dropbtn {
-        text-align: left;
-        padding: 10px 0;
-        width: 100%;
-        background-color: floralwhite;
-
-    }
-    .menu-drop a {
-        text-align: left;
-        padding: 10px 0;
-        width: 100%;
-    }
-    #cafe {
-        width: 50%;
-        horiz-align: center;
-        margin-right: 20px;
-    }
-    .information {
-        width: 100%;
-    }
-    p {
-        width: 95%;
-    }
-
+  .menu-drop {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    width: 100%;
+  }
+  .menu {
+    width: 100%;
+    background-color: white;
+  }
+  .menu:hover .menu-drop {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+  }
+  .menu .dropbtn {
+    text-align: left;
+    padding: 10px 0;
+    width: 100%;
+    background-color: #C6E8FE;
+  }
+  .menu-drop a {
+    text-align: left;
+    padding: 10px 0;
+    width: 100%;
+  }
+  #cafe {
+    width: 50%;
+    horiz-align: center;
+    margin-right: 20px;
+  }
+  .information {
+    width: 100%;
+  }
+  p {
+    width: 95%;
+  }
 }
+<<<<<<< HEAD
 
 
 
@@ -1804,3 +1892,5 @@ PETAL ANIMATION
 	-moz-animation: movingclouds 120s linear infinite;
 	-o-animation: movingclouds 120s linear infinite;
 }
+=======
+>>>>>>> 43fab5bb5b062df3cbb262f868ae68e4992dffce
