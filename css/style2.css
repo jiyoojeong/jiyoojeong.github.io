@@ -32,8 +32,8 @@ body, html {
 #home-body > img {
     width: auto;
     height: 120%;
-    opacity: 20%;
-    filter: blur(3px);
+    opacity: 50%;
+    filter: blur(1px);
 }
 
 #home-body > #main-name {
@@ -168,12 +168,13 @@ p {
     position: relative;
     display: inline-block;
     text-align: center;
+
 }
 
 .menu-drop {
     display: none;
     position: absolute;
-    background: #777777;
+    background: #bdbcb3;
     opacity: .70;
     color: -moz-default-background-color;
     min-width: 100%;
@@ -199,14 +200,14 @@ p {
     color: black;
 }
 
+.menu-right {
+    float: right;
+}
+
 .navbar {
     position: relative;
     width: 100%;
-    background-color: black;
-    opacity: 60%;
-    background-image: url(
-    'https://data.whicdn.com/images/137705153/original.gif'
-    );
+    background-color: #dbdad3;
 }
 
 .navbar > .back {
