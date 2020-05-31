@@ -5,7 +5,7 @@ const items = document.querySelectorAll('.item'),
   descriptionItems = document.querySelectorAll('.item-description'),
   activeDelay = .76,
   //how long each slide goes for
-  interval = 7000;
+  interval = 10000;
 
 let current = 0;
 

@@ -71,7 +71,7 @@
 
 .item-description {
   position: absolute;
-  top: 80px;
+  top: 150px;
   right: 0;
   width: 50%;
   padding-right: 4%;
@@ -81,7 +81,7 @@
 /* Staggered Vertical Items ------------------------------------------------------*/
 .item-header {
   position: absolute;
-  top: 120px;
+  top: 30px;
   left: -1.8%;
   z-index: 100;
 }
