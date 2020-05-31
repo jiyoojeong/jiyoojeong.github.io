@@ -244,10 +244,6 @@ p a {
     color: white;
 }
 
-li strong {
-    color: peru;
-    font-size: larger;
-}
 
 /*for small screens*/
 @media only screen and (max-width: 600px) {

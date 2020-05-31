@@ -132,24 +132,48 @@
 }
 
 .controls ul li {
+  text-align: center;
   display: inline-block;
-  width: 10px;
-  height: 10px;
-  margin: 3px;
-  background:#615f58;;
+  width: 15px;
+  height: 15px;
+  margin: 5px;
+
   cursor: pointer;
+  color: #c4c0b1;;
+  background: none;
+}
+
+.controls ul li#yr {
+  text-align: center;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 5px;
+
+  cursor: pointer;
+  color: #615f58;;
+  font-weight: bold;
+  background: none;
 }
 
 .controls ul li.active {
   background:#c4c0b1;;
+  color: #615f58;
+  border-radius: 10px;
+}
+
+.controls ul li#yr.active {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 5px;
+  cursor: pointer;
+  color: #615f58;;
+  font-weight: bold;
 }
 
 /* TEXT EDITS --- */
 
-a {
-    color: #c4c0b1;
-}
-
-a:hover {
-    color: white;
+.slideshow a {
+  background:#c4c0b1;;
 }
