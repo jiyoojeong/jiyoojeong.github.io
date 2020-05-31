@@ -217,7 +217,7 @@ p {
 
 .contacts {
     font-family: "Comfortaa", sans-serif;
-    color: white;
+    color: #615f58;
     width: 80%;
     font-size: 20px;
 }
@@ -227,12 +227,17 @@ p {
 }
 
 .contacts a {
+    color: #c4c0b1;
+}
+
+.contacts a:hover {
     color: white;
 }
 
+
 li:hover {
     background-color: rgba(150, 150, 150, .4);
-    color: white;
+    color: #ebe8e4;
 }
 
 li:hover strong {
@@ -1881,3 +1886,10 @@ PETAL ANIMATION
 	-moz-animation: movingclouds 120s linear infinite;
 	-o-animation: movingclouds 120s linear infinite;
 }
+
+
+
+/*=====================
+CONTACT INFORMATION
+======================*/
+
