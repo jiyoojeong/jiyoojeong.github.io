@@ -187,15 +187,16 @@ p {
     text-align: center;
     display: table-row;
     color: #000000;
+    font-size: 1vw;
     padding: 12px 16px;
     display: block;
     text-align: center;
-
 }
 
 .menu-drop a:hover {
     color: white;
 }
+
 .menu:hover .menu-drop {
     display: block;
     color: black;
