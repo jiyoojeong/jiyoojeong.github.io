@@ -62,7 +62,7 @@
 #headfly {
     transform: translateX(-100%);
     opacity:0;
-    transition: 1000ms;
+    transition: 900ms;
 }
 
 #headfly.run {
