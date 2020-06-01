@@ -6,7 +6,7 @@
 #flyin {
     transform: translateX(100%);
     opacity: 0;
-    transition: 1200ms;
+    transition: 1300ms;
 
 }
 
@@ -18,7 +18,7 @@
 #flyin2 {
     transform: translateX(100%);
     opacity: 0;
-    transition: 1300ms;
+    transition: 1350ms;
 }
 
 #flyin2.run {
