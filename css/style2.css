@@ -36,15 +36,45 @@ body, html {
     filter: blur(1px);
 }
 
-#home-body > #main-name {
-        position: absolute;
-        z-index: 999;
-        margin: 0 auto;
-        left: 0;
-        right: 0;
-        top: 40%; /* Adjust this value to move the positioned div up and down */
-        text-align: center;
-        width: 60%; /* Set the width of the positioned div */
+!important #home-body > h1 {
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
+    text-align: center;
+    font-size: 10px;
+}
+
+
+#main-name {
+    color: #444444;
+    padding: 5px;
+    font-size: 6vw;
+    font-weight: normal;
+    width: 300px;
+    /*text-align: center;*/
+    /*horiz-align: center;*/
+
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 100%; /* Set the width of the positioned div */
+    transform: translateY(-20%);
+    opacity: 0;
+
+}
+
+#main-name.run {
+    opacity: 1;
+    transform: translateY(0);
+    transition: 1000ms;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    text-align: center;
+    display: inline-block;
+
 }
 
 #home-body > .home-navbar {
@@ -57,6 +87,15 @@ body, html {
         text-align: center;
         width: 60%; /* Set the width of the positioned div */
         background-color: rgba(150, 150, 150, .6);
+        transform: translateY(-100%);
+        opacity: 0;
+
+}
+
+#main-bar.run {
+    opacity: 1;
+    transform: translateY(0);
+    transition: 1100ms;
 }
 
 .home-navbar > .menu-drop {
@@ -114,15 +153,7 @@ p {
     padding-top: 5px;
 }
 
-#main-name {
-    color: #444444;
-    padding: 5px;
-    font-size: 50px;
-    font-weight: normal;
-    width: 300px;
-    /*text-align: center;*/
-    /*horiz-align: center;*/
-}
+
 
 .dropbtn {
     background-color: white;
