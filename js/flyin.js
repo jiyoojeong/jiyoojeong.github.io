@@ -15,6 +15,10 @@ if (!! document.querySelector(profile_path)) {
     document.querySelector(profile_path).classList.add("run");
 }
 
+if (!! document.getElementById("profile")) {
+    document.getElementById("profile").classList.add("run");
+}
+
 if (!! document.getElementById("headfly")) {
     document.getElementById("headfly").classList.add("run");
 }
