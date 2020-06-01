@@ -27,6 +27,18 @@
 }
 
 
+#flyin3 {
+    transform: translateX(100%);
+    opacity: 0;
+    transition: 1400ms;
+}
+
+#flyin3.run {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+
 
 #profile {
     transform: translateX(-100%);

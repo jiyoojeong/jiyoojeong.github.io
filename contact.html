@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
 
     <link rel="stylesheet" type="text/css" href="css/style2.css">
+    <link rel="stylesheet" type="text/css" href="css/flyin.css">
 
 </head>
 <body>
@@ -47,13 +48,25 @@
 <br>
 
 <div class="information">
-    <h1>Contact</h1>
-    <span id="inquiries">For any inquiries about Jiyoo's works or want to connect, please refer to these contact points below.</span>
+
+        <h1 id="header">Contact</h1>
+        <span id="profile">For any inquiries about Jiyoo's works or want to connect, please refer to these contact points below.</span>
+
     <ul class="contacts">
-        <li>Email: <a href="mailto:jiyoojeong@berkeley.edu">jiyoojeong@berkeley.edu</a></li>
-        <li>LinkedIn: <a href="https://www.linkedin.com/in/jiyoo-jeong">linkedin.com/in/jiyoo-jeong</a></li>
-        <li>Instagram: <a href="https://www.instagram.com/_____jiyoo/">instagram.com/_____jiyoo</a></li>
+        <li id="flyin">Email: <a href="mailto:jiyoojeong@berkeley.edu">jiyoojeong@berkeley.edu</a></li>
+        <li id="flyin2">LinkedIn: <a href="https://www.linkedin.com/in/jiyoo-jeong">linkedin.com/in/jiyoo-jeong</a></li>
+        <li id="flyin3">Instagram: <a href="https://www.instagram.com/_____jiyoo/">instagram.com/_____jiyoo</a></li>
     </ul>
 </div>
+<script>
+    document.getElementById("flyin").className = "run";
+    document.getElementById("flyin2").className = "run";
+    document.getElementById("flyin3").className = "run";
+    document.getElementById("profile").className = "run";
+    document.getElementById("header").className = "run";
+</script>
+
 </body>
+
 </html>
+
