@@ -190,6 +190,7 @@ p {
     padding: 12px 16px;
     display: block;
     text-align: center;
+
 }
 
 .menu-drop a:hover {
@@ -210,9 +211,6 @@ p {
     background-color: #dbdad3;
 }
 
-.navbar > .back {
-    width: 100%;
-}
 
 
 .contacts {

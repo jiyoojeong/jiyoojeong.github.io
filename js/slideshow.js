@@ -1,5 +1,5 @@
 // Master DOManipulator v2 ------------------------------------------------------------
-const items = document.querySelectorAll('.item'),
+  const items = document.querySelectorAll('.item'),
   controls = document.querySelectorAll('.control'),
   headerItems = document.querySelectorAll('.item-header'),
   descriptionItems = document.querySelectorAll('.item-description'),
