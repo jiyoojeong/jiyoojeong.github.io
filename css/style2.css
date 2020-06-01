@@ -325,11 +325,15 @@ p a {
 .section-1 {
     width: 100%;
     padding: 75px 0;
+    opacity: 0;
 }
+
 
 .section-1.banner {
 	height: 500px;
 }
+
+
 
 .section-1.header {
 	height: 200px;

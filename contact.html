@@ -18,6 +18,8 @@
 
 </head>
 <body>
+  <span class="position-absolute trigger"><!-- hidden trigger to apply 'stuck' styles --></span>
+
  <!-- NAVIGATION BAR NAVBAR -->
     <div class="navbar">
                 <div class="menu">
@@ -46,10 +48,10 @@
 
     <br>
     <br>
-
-
-    <h1 id="header">Contact</h1>
-    <span id="profile">For any inquiries about Jiyoo's works or want to connect, please refer to these contact points below.</span>
+    <div class="section-1" id="headfly">
+        <h1>Contact</h1>
+        <span id="profile">For any inquiries about Jiyoo's works or want to connect, please refer to these contact points below.</span>
+    </div>
 
     <ul class="contacts">
         <li id="flyin">Email: <a href="mailto:jiyoojeong@berkeley.edu">jiyoojeong@berkeley.edu</a></li>
@@ -57,13 +59,7 @@
         <li id="flyin3">Instagram: <a href="https://www.instagram.com/_____jiyoo/">instagram.com/_____jiyoo</a></li>
     </ul>
 
-    <script>
-        document.getElementById("flyin").className = "run";
-        document.getElementById("flyin2").className = "run";
-        document.getElementById("flyin3").className = "run";
-        document.getElementById("profile").className = "run";
-        document.getElementById("header").className = "run";
-    </script>
+    <script src="js/flyin.js"></script>
 
 </body>
 

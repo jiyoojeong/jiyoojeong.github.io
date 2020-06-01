@@ -38,29 +38,39 @@
     transform: translateX(0%);
 }
 
-
-
 #profile {
     transform: translateX(-100%);
     opacity:0;
-    transition: 1200ms;
     max-width: 50vw;
 }
 
 #profile.run {
     opacity:1;
     transform: translateX(0%);
+    transition: 1200ms;
+}
+
+#profile.col-sm-6.run {
+    opacity:1;
+    transform: translateX(0%);
+    transition: 1200ms;
 }
 
 
 
-#header {
+
+#headfly {
     transform: translateX(-100%);
     opacity:0;
     transition: 1000ms;
 }
 
-#header.run {
+#headfly.run {
+    opacity:1;
+    transform: translateX(0%);
+}
+
+#headfly.section-1.banner.run {
     opacity:1;
     transform: translateX(0%);
 }
