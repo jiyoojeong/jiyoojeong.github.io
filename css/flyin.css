@@ -1,0 +1,54 @@
+/* ABOUT TRANSITIONS */
+.recent-reads {
+    margin-left: 2vw;
+}
+
+#flyin {
+    transform: translateX(100%);
+    opacity: 0;
+    transition: 1200ms;
+
+}
+
+#flyin.run {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+#flyin2 {
+    transform: translateX(100%);
+    opacity: 0;
+    transition: 1300ms;
+}
+
+#flyin2.run {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+
+
+#profile {
+    transform: translateX(-100%);
+    opacity:0;
+    transition: 1200ms;
+    max-width: 50vw;
+}
+
+#profile.run {
+    opacity:1;
+    transform: translateX(0%);
+}
+
+
+
+#header {
+    transform: translateX(-100%);
+    opacity:0;
+    transition: 1000ms;
+}
+
+#header.run {
+    opacity:1;
+    transform: translateX(0%);
+}

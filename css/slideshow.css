@@ -76,6 +76,11 @@
   width: 50%;
   padding-right: 4%;
   line-height: 1.8;
+
+}
+
+.item-description .vertical-part{
+    font-size: 1vw;
 }
 
 /* Staggered Vertical Items ------------------------------------------------------*/

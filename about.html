@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
 
     <link rel="stylesheet" type="text/css" href="css/style2.css">
-
+    <link rel="stylesheet" type="text/css" href="css/slideshow.css">
+    <link rel="stylesheet" type="text/css" href="css/flyin.css">
     <title>About</title>
 </head>
 
@@ -51,7 +52,7 @@
 
         <!--Section-1-->
         <section class="section-1 banner">
-            <div class="section-1 title" >
+            <div class="section-1 title" id='header'>
                 <h1><strong>J I Y O O</strong> J E O N G</h1>
                 <br>
                 <span>SOCIAL EQUITY-JUSTICE ADVOCATE</span> &emsp;
@@ -62,46 +63,53 @@
         </section>
         <!--END Section-1-->
 
+
         <!--Section-4-->
         <div class="section" id="section-4">
 
             <div class="row" id="row-2">
-                <div class="col-sm-6 col-6">
+                <div class="col-sm-6 col-6" >
                     <figure>
-                        <img class="figure-img img-fluid" src="images/p1 copy.PNG" alt="Jiyoo Profile Picture.">
+                        <img id="profile" class="figure-img img-fluid" src="images/paint1.png" alt="Jiyoo Profile Picture.">
                     </figure>
                 </div>
                 <div class="col-sm-6 col-6 right">
-                    <p> Jiyoo is a student at the
-                        University of California - Berkeley pursuing for her Bachelor's Degrees in Business, Computer Science and Statistics. </p>
-                    <p> She is deeply passionate about the intersectionalities of
+                    <p id="flyin"> Jiyoo is deeply passionate about the intersectionalities of
                         seemingly diverse fields like art, science, history,
-                        business and social justice. She hopes to continue with her creative
+                        business and social justice that work towards people-centered systems.
+                        She hopes to continue with her creative
                         passions into the future, engineering solutions
                         to the world's wicked problems.</p>
-                    <p> Currently, Jiyoo is working on several independent projects
+                    <p id="flyin2"> Currently, Jiyoo is working on several independent projects
                         related to social sector impact investment and entrepreneurship to
                         help expand the existing paradigms of financial technology and investment
-                        to create purpose-driven organizations.
+                        to create purpose-driven organizations. She is also pursuing her bachelor's
+                        degrees from the University of California Berkeley in Economics, Statistics, and
+                        Computer Science.
                     </p>
                     <br>
-                    <p>
-                    Recent Reads:
-                        <ul>
-                            <li>Accounting For Slavery, Caitlin Rosenthal</li>
-                            <li>The Rise of Social Stock Exchanges, Bandini Chhichhia (Stanford Social Innovation)</li>
-                            <li>A Random Walk Down Wall Street, Burton Gordon Malkiel</li>
-                            <li>Confessions of a Cake Boy, Ramsey McGlazer (LA Review of Books Article)</li>
-                        </ul>
-                    </p>
-                    <a href="contact.html"><button class="page-buttons" >Connect</button></a>
-                    <a href="construction.html"><button class="page-buttons">CV</button></a>
-
                 </div>
-
             </div>
+
+                <div class="row" id="row-3">
+                    <div class="col-sm-12 col-12">
+                        Recent Reads:
+                            <ul class="recent-reads">
+                                <li>Accounting For Slavery, Caitlin Rosenthal</li>
+                                <li>The Rise of Social Stock Exchanges, Bandini Chhichhia (Stanford Social Innovation)</li>
+                                <li>A Random Walk Down Wall Street, Burton Gordon Malkiel</li>
+                                <li>Confessions of a Cake Boy, Ramsey McGlazer (LA Review of Books Article)</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+            <a href="contact.html"><button class="page-buttons" >Connect</button></a>
+            <a href="construction.html"><button class="page-buttons">CV</button></a>
+
         </div>
         <!-- END Section-4-->
+
+
 
     <!-- Footer -->
     <footer class="page-footer">
@@ -123,15 +131,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
     <script src="js/animate.js"></script>
     <script src="js/custom.js"></script>
+    <script src="js/slideshow.js"></script>
 
 
 <!-- CUSTOM JAVASCRIPT -->
 
     <script>
-        $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-            event.preventDefault();
-            $(this).ekkoLightbox();
-        });
+        document.getElementById("flyin").className = "run";
+        document.getElementById("flyin2").className = "run";
+        document.getElementById("profile").className = "run";
+        document.getElementById("header").className = "run";
     </script>
 
 </body>
