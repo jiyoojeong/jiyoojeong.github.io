@@ -1771,7 +1771,7 @@ p a {
 ==============================*/
 
 .page-footer {
-width: 100%;
+    width: 100%;
     background-image: url(
     'https://data.whicdn.com/images/137705153/original.gif'
     );
