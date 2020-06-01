@@ -17,12 +17,13 @@
 
     <link rel="stylesheet" type="text/css" href="css/style2.css">
     <link rel="stylesheet" type="text/css" href="css/slideshow.css">
+    <link rel="stylesheet" type="text/css" href="css/flyin.css">
 
   <!-- ICON -->
     <link rel="icon" href="images/icon.png">
 
 </head>
-<body>
+<body onload="loadflying()">
 
 <span class="position-absolute trigger"><!-- hidden trigger to apply 'stuck' styles --></span>
 
@@ -53,7 +54,7 @@
         <!-- END NAVIGATION BAR NAVBAR -->
 <br>
 <!--Section-1-->
-    <section class="section-1 banner">
+    <section class="section-1 banner" id="headfly">
         <div class="section-1 title">
             <h1><strong>P</strong>ROJECTS & <strong>V</strong>ENTURES</h1>
         </div>
@@ -65,7 +66,7 @@
 <!--TEST-->
 
 <!-- Slideshow container -->
-<div class="content-width">
+<div class="content-width" id="flyin">
   <div class="slideshow">
     <!-- Slideshow Items -->
     <div class="slideshow-items">
@@ -668,6 +669,7 @@
     <!-- END Footer -->
 
     <script src="js/slideshow.js"></script>
+    <script src="js/flyin.js"></script>
 
 </body>
 </html>
