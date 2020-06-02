@@ -14,6 +14,8 @@
     <link rel="stylesheet" type="text/css" href="css/flyin.css">
     <link rel="stylesheet" type="text/css" href="css/style2.css">
 
+    <link rel="stylesheet" type="text/css" href="css/viewport.css">
+
     <!-- ICON -->
     <link rel="icon" href="images/icon.png">
 
@@ -24,7 +26,7 @@
         <span class="position-absolute trigger"><!-- hidden trigger to apply 'stuck' styles --></span>
 
         <!-- NAVIGATION BAR NAVBAR -->
-            <div class="navbar">
+            <div class="navbar visible-xs">
                 <div class="menu">
                     <a href="index.html"><img class='nav-logo' class="figure-img img-fluid" src="images/icon.png"></a>
                 </div>
@@ -48,6 +50,28 @@
                 </div>
         </div>
         <!-- END NAVIGATION BAR NAVBAR -->
+
+
+        <!-- SMALL NAVBAR -->
+            <div class="nav-right">
+              <div class="button" onclick="toggleSideBar()" id="btn">
+                <div class="bar top"></div>
+                <div class="bar middle"></div>
+                <div class="bar bottom"></div>
+              </div>
+            </div>
+            <!-- nav-right -->
+
+            <div class="sidebar hidden">
+              <ul class="sidebar-list">
+                <li class="sidebar-item"><a href="#" class="sidebar-anchor">Item 1</a></li>
+                <li class="sidebar-item"><a href="#" class="sidebar-anchor">Item 2</a></li>
+                <li class="sidebar-item"><a href="#" class="sidebar-anchor">Item 3</a></li>
+                <li class="sidebar-item"><a href="#" class="sidebar-anchor">Item 4</a></li>
+              </ul>
+            </div>
+
+        <!--END SMALL NAVBAR -->
 
         <br>
         <br>
@@ -129,6 +153,7 @@
 
     <!-- CUSTOM JAVASCRIPT -->
      <script src="js/flyin.js"></script>
+     <script src="js/viewport.js"></script>
 </body>
 
 
